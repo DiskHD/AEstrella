@@ -167,6 +167,7 @@ e2_backend/
 
 ## 📊 Diagrama de Entidad-Relación (UML)
 
+```mermaid
 erDiagram
     users {
         int id
@@ -299,6 +300,7 @@ erDiagram
     evaluacion_criterios ||--o{ evaluaciones : puntua
 
     perfiles ||--o{ equipo_interacciones : perfil
+```
 ---
 
 ## ⚙️ Instalación
